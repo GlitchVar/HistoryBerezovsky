@@ -191,7 +191,7 @@ li {
     gap: 63px;
 }
 .popular-humans {
-    background-image: url(/img/stroi.webp);
+    background-image: url("img/stroi.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
