@@ -57,7 +57,7 @@ li {
 .link-item {
     color: var(--color-white);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
     padding-right: 51px;
     transition: 0.2s ease;
 }
