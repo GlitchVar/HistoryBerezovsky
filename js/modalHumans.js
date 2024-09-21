@@ -59,6 +59,11 @@ function openHumanModal(event) {
     document.body.style.overflow = 'hidden';
 
     const buttonClose = modalContent.querySelector('.close-btn-modal');
+    window.addEventListener("keydown", (event) => {
+        if(event.key == "Escape") {
+            modal.style.display = 'none';
+        }
+    })
     buttonClose.addEventListener("click", () => {
       modal.style.display = 'none';
       document.body.style.overflow = 'auto';
