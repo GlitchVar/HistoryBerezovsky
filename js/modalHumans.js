@@ -62,6 +62,7 @@ function openHumanModal(event) {
     window.addEventListener("keydown", (event) => {
         if(event.key == "Escape") {
             modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
         }
     })
     buttonClose.addEventListener("click", () => {
