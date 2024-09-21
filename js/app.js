@@ -84,7 +84,11 @@ function openModal(event) {
    
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
-    
+    window.addEventListener("keydown", (event) => {
+        if(event.key == "Escape") {
+            modal.style.display = 'none';
+        }
+    })
     const buttonClose = modalContent.querySelector('.close-btn');
     buttonClose.addEventListener("click", () => {
       modal.style.display = 'none';
