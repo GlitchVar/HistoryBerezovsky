@@ -50,6 +50,7 @@ li {
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 50px;
+    box-shadow: 0 0 24px #000;
 }
 .list {
     padding-left: 300px;
