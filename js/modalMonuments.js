@@ -15,10 +15,10 @@ function openMonumentsModal(event) {
         Два с половиной века назад он так же, может быть, впервые увидел блеснувшие чешуйки золота и застыл в безмолвном удивлении… 
         Ерофей Сидорович Марков (1695-1783) родился в селе Павлово Троице-Сергиева монастыря.</p>
         
-        <img src="img/do.jpg" loading="lazy" style="position: relative; top: 130px; right: 1030px;">
+        <img src="img/do.jpg" loading="lazy" style="position: relative; top: 130px; right: 1030px;" alt="do">
         <h2 style="position: absolute; top: 330px; left: 80px;">До:</h2>
         <h2 style="position: absolute; top: 330px; left: 735px;">После:</h2>
-        <img src="img/posle.jpg" loading="lazy" style="position: absolute; top: 130px; left: 1200px;">
+        <img src="img/posle.jpg" loading="lazy" style="position: absolute; top: 130px; left: 1200px;" alt="posle">
         <button type="submit" class="close-btn-monuments">X</button>
         `;
         modal.style.width = "1351px";
@@ -31,10 +31,10 @@ function openMonumentsModal(event) {
         Внутреннюю поверхность подземного «тоннеля» мастера намеренно сделали не круглой, а угловатой, как и должно быть в настоящей шахте. 
         Общая высота монумента «Горняцкая слава» достигает пяти метров. 
         Расположенный на гостевом маршруте памятник своими размерами непроизвольно обращает внимание на себя жителей и гостей города.</p>
-        <img src="img/do2.jpg" loading="lazy" style="position: relative; top: 230px; right: 1030px;">
+        <img src="img/do2.jpg" loading="lazy" style="position: relative; top: 230px; right: 1030px;" alt="do">
         <h2 style="position: absolute; top: 430px; left: 80px;">До:</h2>
         <h2 style="position: absolute; top: 430px; left: 535px;">После:</h2>
-        <img src="img/posle2.jpg" loading="lazy" style="position: absolute; top: 230px; left: 1000px;">
+        <img src="img/posle2.jpg" loading="lazy" style="position: absolute; top: 230px; left: 1000px;"  alt="posle">
         <button type="submit" class="close-btn-monuments">X</button>
         `;
         modal.style.width = "1351px";
@@ -49,10 +49,10 @@ function openMonumentsModal(event) {
         Открытие монумента приурочено к Дню города Берёзовского и к 275-летию с начала разработок на золотоносном месторождении Берёзовского. 
         Памятник Кирову – это вторая большая работа братьев Бородиных в Берёзовском. 
         Несколькими годами ранее  - в 2013-м - они изготовили монумент «Горняцкая слава», который сегодня расположен на перекрестке улиц Ленина и Октябрьской, рядом со зданием, которое ранее занимало Берёзовское рудоуправление.</p>
-        <img src="img/kirov1.jpg" loading="lazy" style="position: relative; top: 270px; right: 1030px;">
+        <img src="img/kirov1.jpg" loading="lazy" style="position: relative; top: 270px; right: 1030px;" alt="do">
         <h2 style="position: absolute; top: 470px; left: 80px;">До:</h2>
         <h2 style="position: absolute; top: 470px; left: 535px;">После:</h2>
-        <img src="img/kirov2.jpg" loading="lazy" style="position: absolute; top: 270px; left: 1000px;"> 
+        <img src="img/kirov2.jpg" loading="lazy" style="position: absolute; top: 270px; left: 1000px;" alt="posle"> 
         <button type="submit" class="close-btn-monuments">X</button>
         `;
         modal.style.width = "1351px";
@@ -67,10 +67,10 @@ function openMonumentsModal(event) {
         События 1970-х годов хорошо помнит Почётный гражданин Берёзовского Тамара Ерёмина. 
         В то время Тамара Ивановна была секретарём городского комитета Коммунистической партии Советского Союза (далее – партии), 
         в переводе на сегодняшние реалии – четвертым человеком в руководстве города.</p>
-        <img src="img/parkPobedi1.jpg" loading="lazy" style="position: relative; top: 240px; right: 1030px;">
+        <img src="img/parkPobedi1.jpg" loading="lazy" style="position: relative; top: 240px; right: 1030px;" alt="do">
         <h2 style="position: absolute; top: 440px; left: 80px;">До:</h2>
         <h2 style="position: absolute; top: 440px; left: 535px;">После:</h2>
-        <img src="img/parkPobedi2.jpg" loading="lazy" style="position: absolute; top: 240px; left: 1000px;"> 
+        <img src="img/parkPobedi2.jpg" loading="lazy" style="position: absolute; top: 240px; left: 1000px;" alt="posle"> 
         <button type="submit" class="close-btn-monuments">X</button>
         `;
         modal.style.width = "1351px";
