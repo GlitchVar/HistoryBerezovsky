@@ -297,6 +297,7 @@ li {
     width: 1000px;
 }
 
+/*Модальные окна памятников*/
 .modal-monuments {
     display: none;
     position: fixed;
