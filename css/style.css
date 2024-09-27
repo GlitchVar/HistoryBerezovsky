@@ -364,3 +364,99 @@ li {
 .monuments-card {
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .header-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .gerb {
+        width: 50px;
+        height: 50px;
+    }
+
+    
+    .list {
+        padding-left: 20px;
+    }
+    
+    .berez {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+    .gerb {
+        width: 10px;
+        height: 10px;
+        padding-top: 15px;
+    }
+
+    .header-content {
+        height: 80px;
+        padding-top: 15px;
+    }
+    
+    .text {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    .flag-footer {
+        width: 250px;
+        height: 150px;
+        padding: 0;
+    }
+    .footer-title {
+        font-size: 5px;
+    }
+    
+    .link-item {
+        font-size: 13px;
+        padding-right: 31px;
+    }
+    
+    .btn-learn {
+        margin-left: 20px;
+        max-width: 150px;
+        padding: 12px 25px 13px 20px;
+        font-size: 14px;
+    }
+    
+    .main-content {
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    
+    .interact-map {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    }
+    
+    .modal {
+    max-width: 90%;
+    height: auto;
+    }
+    
+    .modal-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    text-align: center;
+    }
+    
+    .modal-content > img {
+    margin: 50px 0;
+    }
+    
+    .modal-content > p {
+    top: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    width: 90%;
+    }
+}
