@@ -431,19 +431,9 @@ li {
         padding-left: 20px;
     }
     
-    .interact-map {
-        width: 100px;
-        height: 100px;
-    }
-    
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
-    }
-    
-    .modal1,
-    .modal-btn {
-        width: 100%;
     }
     
     .modal-content {
