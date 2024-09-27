@@ -385,10 +385,10 @@ li {
         padding-left: 20px;
     }
 
-    .gerb {
+    #logo {
         max-width: 10px;
         max-height: 10px;
-        padding-top: 15px;
+           
     }
 
     .header-content {
