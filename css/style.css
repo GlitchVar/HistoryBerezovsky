@@ -370,11 +370,6 @@ li {
         margin-left: 20px;
         margin-right: 20px;
     }
-    .gerb {
-        width: 50px;
-        height: 50px;
-    }
-
     
     .list {
         padding-left: 20px;
@@ -386,8 +381,8 @@ li {
     }
 
     #logo {
-        max-width: 10px;
-        max-height: 10px;
+        width: 10px;
+        height: 10px;
            
     }
 
