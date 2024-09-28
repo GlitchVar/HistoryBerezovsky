@@ -364,6 +364,9 @@ li {
 .monuments-card {
     text-align: center;
 }
+.streets-history {
+    height: auto;
+}
 
 @media (max-width: 768px) {
     .modal-humans {
@@ -373,6 +376,10 @@ li {
     .header-content {
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .streets-history {
+        height: auto;
     }
     
     .list {
