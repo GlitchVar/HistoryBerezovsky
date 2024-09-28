@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-image: url(../img/background.webp);
+    background-image: url(/img/background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,15 +45,13 @@ li {
     align-items: center;
     background-color: var(--color-green);
     padding-left: 18px;
-    padding-top: 1px;
-    padding-bottom: 1px;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 50px;
     box-shadow: 0 0 24px #000;
 }
 .list {
-    padding-left: 300px;
+    padding-left: 386px;
 }
 .link-item {
     color: var(--color-white);
@@ -192,7 +190,7 @@ li {
     gap: 63px;
 }
 .popular-humans {
-    background-image: url(../img/stroi.webp);
+    background-image: url(/img/stroi.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -237,10 +235,7 @@ li {
     gap: 35px;
 }
 .modal-content > img {
-    position: relative;
-    right: 756px;
-    top: 125px;
-    margin: 240px 20px;
+    margin: 240px -420px;
     border-radius: 20px;
 }
 .modal-content > p {
@@ -282,10 +277,7 @@ li {
     gap: 35px;
 }
 .modal-humans-content > img {
-    position: relative;
-    right: 550px;
-    top: 50px;
-    margin: 240px 20px;
+    margin: 240px -470px;
     border-radius: 20px;
 }
 .modal-humans-content > p {
@@ -374,7 +366,6 @@ li {
     height: auto;
     width: auto;
 }
-
 @media (max-width: 768px) {
     .modal-humans {
         width: 100%;
