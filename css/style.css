@@ -367,6 +367,13 @@ li {
 .streets-history {
     height: auto;
 }
+.streets-container {
+    padding-bottom: 20px;
+}
+.history {
+    height: auto;
+    width: auto;
+}
 
 @media (max-width: 768px) {
     .modal-humans {
