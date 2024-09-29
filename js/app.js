@@ -10,10 +10,10 @@ function openModal(event) {
                     погибшим в локальных конфликтах воинам-интернационалистам. В канун 50-летия Победы в парке была возведена<br> 
                     Триумфальная арка с колоннами, торжественное открытие которой состоялось 8 мая 2005 года.<br>
                     На территории парка расположен мемориал в честь 50-летия Победы, построенный на средства березовчан и открытый 9 мая 1975 г.</p>
-                <img src="img/pobeda2.jpg" loading="lazy" style="position: relative; top: 410px; left: -1005px;" alt="do" width="370" height="375">
+                <img src="img/pobeda2.jpg" loading="lazy" style="position: relative; top: -410px; left: 1005px;" alt="do" width="370" height="375">
                 <h2 style="position: absolute; top: 370px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 370px; left: 735px;">После:</h2>
-                <img src="img/pobeda3.jpg" loading="lazy" style="position: absolute; top: 410px; left: 730px;" alt="posle" width="370" height="375">
+                <img src="img/pobeda3.jpg" loading="lazy" style="position: absolute; top: -410px; left: 1200px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">X</button>`;
         modal.style.height = "790px";
     } else if(modalId === 'modal2') {
