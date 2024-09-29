@@ -213,7 +213,7 @@ li {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    max-width: 1452px;
+    width: 1452px;
     height: 750px;
     z-index: 100;
     border-radius: 20px;
