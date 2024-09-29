@@ -49,12 +49,12 @@ function openModal(event) {
                         Организован в конце 50-х и 70-х годов ХХ века в два этапа: сначала появилась южная часть пруда вследствие постройки дамбы, 
                         а через некоторое время уже северная по такому же принципу. 
                         В этой связи эти части называют иногда «Старым» и «Новым» прудами, соответственно.</p>
-                <img src="img/shilPrud-vid.jpg" loading="lazy" style="position: relative; top: 350px; left: -1005px;" alt="do" width="370" height="375">
-                <h2 style="position: absolute; top: 310px; left: 40px;">До:</h2>
-                <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
-                <img src="img/5.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
+                <img src="img/shilPrud-vid.jpg" loading="lazy" style="position: relative; top: 380px; left: -1005px;" alt="do" width="370" height="375">
+                <h2 style="position: absolute; top: 340px; left: 40px;">До:</h2>
+                <h2 style="position: absolute; top: 340px; left: 735px;">После:</h2>
+                <img src="img/5.jpg" loading="lazy" style="position: absolute; top: 380px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">X</button>`;
-        modal.style.height = "730px";
+        modal.style.height = "760px";
     } else if(modalId === 'modal5') {
         modalContent.innerHTML = `<p>Тропа здоровья появилась в Берёзовском в конце 1970 гг. Летом 2008 года Тропа была обновлена, благоустроена. 
                     Асфальтированная полуторометровая дорожка протянулась по лесу. 
