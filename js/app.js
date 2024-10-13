@@ -10,11 +10,11 @@ function openModal(event) {
                     погибшим в локальных конфликтах воинам-интернационалистам. В канун 50-летия Победы в парке была возведена<br> 
                     Триумфальная арка с колоннами, торжественное открытие которой состоялось 8 мая 2005 года.<br>
                     На территории парка расположен мемориал в честь 50-летия Победы, построенный на средства березовчан и открытый 9 мая 1975 г.</p>
-                <img src="img/pobeda2.jpg" loading="lazy" style="position: relative; top: 410px; left: 100px;" alt="do" width="370" height="375">
+                <img src="img/pobeda2.jpg" loading="lazy" style="position: relative; top: 410px; left: -1005px;" alt="do" width="370" height="375">
                 <h2 style="position: absolute; top: 370px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 370px; left: 735px;">После:</h2>
-                <img src="img/pobeda3.jpg" loading="lazy" style="position: absolute; top: 410px; left: 1150px;" alt="posle" width="370" height="375">
-                <button type="submit" class="close-btn">X</button>`;
+                <img src="img/pobeda3.jpg" loading="lazy" style="position: absolute; top: 410px; left: 730px;" alt="posle" width="370" height="375">
+                <button type="submit" class="close-btn">✖️</button>`;
         modal.style.height = "790px";
     } else if(modalId === 'modal2') {
         modalContent.innerHTML = `<p>Музей золота в Березовском был создан в 1970 году по инициативе краеведа Сильвии Опёнкиной.
@@ -26,7 +26,7 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/cube.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
-                <button type="submit" class="close-btn">X</button>`;
+                <button type="submit" class="close-btn">✖️</button>`;
         modal.style.height = "730px";
     } else if(modalId === 'modal3') {
         modalContent.innerHTML = `<p>Исторический сквер в Березовском - центральное место и место образования города. 
@@ -39,7 +39,7 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/erofey3.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
-                <button type="submit" class="close-btn">X</button>`;
+                <button type="submit" class="close-btn">✖️</button>`;
         modal.style.height = "730px";
     } else if(modalId === 'modal4') {
         modalContent.innerHTML = `<p>Шиловский пруд – искусственный водоём на русле реки Шиловка (правый приток реки Пышма) в черте города Берёзовского Свердловской области,
@@ -53,7 +53,7 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 340px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 340px; left: 735px;">После:</h2>
                 <img src="img/5.jpg" loading="lazy" style="position: absolute; top: 380px; left: 730px;" alt="posle" width="370" height="375">
-                <button type="submit" class="close-btn">X</button>`;
+                <button type="submit" class="close-btn">✖️</button>`;
         modal.style.height = "760px";
     } else if(modalId === 'modal5') {
         modalContent.innerHTML = `<p>Тропа здоровья появилась в Берёзовском в конце 1970 гг. Летом 2008 года Тропа была обновлена, благоустроена. 
@@ -63,7 +63,7 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/tropa3.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
-                <button type="submit" class="close-btn">X</button>`;
+                <button type="submit" class="close-btn">✖️</button>`;
         modal.style.height = "730px";
     } else if(modalId === 'modal6') {
         modalContent.innerHTML = `<p>Скульптурная Композиция Дворик расположена в центральной части российского города Березовский, что в Свердловской области. 
@@ -73,7 +73,7 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/3.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
-                <button type="submit" class="close-btn">X</button>`;
+                <button type="submit" class="close-btn">✖️</button>`;
         modal.style.height = "730px";
     } else if(modalId === 'modal7') {
         modalContent.innerHTML = `<p>В 1803 г., в конце декабря, после пожара, берёзовские жители остались без единственного  Пророко-Илиинского храма. 
@@ -84,7 +84,7 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/church1.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
-                <button type="submit" class="close-btn">X</button>`;
+                <button type="submit" class="close-btn">✖️</button>`;
         modal.style.height = "730px";
     } else if(modalId === 'modal8') {
         modalContent.innerHTML = `<p>Поблизости, на углу улиц Ленина и Революционная стоит бывший дом купца Гавриила Рожкова. 
@@ -95,7 +95,7 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/dom-kupza2.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
-                <button type="submit" class="close-btn">X</button>`;
+                <button type="submit" class="close-btn">✖️</button>`;
         modal.style.height = "730px";
     } else if(modalId === 'modal9') {
         modalContent.innerHTML = `<p>Недалеко от въезда в Березовский, почти на углу улиц Ленина и Воротникова, 
@@ -106,7 +106,7 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 40px;">До:</h2>
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/dom-kuzniza2.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
-                <button type="submit" class="close-btn">X</button>`;
+                <button type="submit" class="close-btn">✖️</button>`;
         modal.style.height = "730px";
     } 
     
