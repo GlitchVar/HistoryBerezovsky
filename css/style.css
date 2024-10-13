@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-image: url(../img/background.webp);
+    background-image: url(/img/background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -190,11 +190,11 @@ li {
     gap: 63px;
 }
 .popular-humans {
-    background-image: url(../img/stroi.webp);
+    background-image: url(/img/stroi.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 793px;
+    padding-bottom: 20px;
 }
 .popular-container {
     display: grid;
@@ -235,7 +235,9 @@ li {
     gap: 35px;
 }
 .modal-content > img {
-    margin: 240px -420px;
+    position: absolute;
+    left: 50px;
+    top: 350px;
     border-radius: 20px;
 }
 .modal-content > p {
@@ -366,6 +368,9 @@ li {
     height: auto;
     width: auto;
 }
+.popular-humans {
+    height: auto;
+}
 
 @media only screen and (max-width: 1200px) {
     .header-content {
@@ -445,102 +450,102 @@ li {
         height: 250px;
     }
 }
-@media (max-width: 768px) {
-    .modal-humans {
-        width: 100%;
-        height: 300px;
-    }
+    
+@media only screen and (max-width: 992px) {
     .header-content {
         margin-left: 20px;
         margin-right: 20px;
     }
-    
     .list {
-        padding-left: 20px;
+        padding-left: 86px;
     }
-    
     .berez {
-        font-size: 40px;
-        padding-left: 20px;
+        font-size: 50px;
+        padding-left: 44px;
     }
-
-    #logo {
-        width: 80px;
-        height: 80px;
-        padding-top: -50px;
-    }
-
-    .monuments-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .header-content {
-        height: 80px;
-        padding-top: 15px;
-    }
-    
     .text {
-        font-size: 14px;
-        padding-left: 20px;
-        padding-top: 8px;
+        font-size: 15px;
+        padding-left: 51px;
+        padding-top: 16px;
     }
-
-    .flag-footer {
-        width: 250px;
-        height: 150px;
-        padding: 0;
+    .gold-bar {
+        margin-left: 400px;
+        margin-top: -350px;
     }
-    .footer-title {
-        font-size: 5px;
-    }
-    
-    .link-item {
-        font-size: 13px;
-        padding-right: 31px;
-    }
-    
     .btn-learn {
-        margin-left: 20px;
-        max-width: 150px;
-        padding: 12px 25px 13px 20px;
-        font-size: 14px;
+        margin-left: 51px;
     }
-    
     .main-content {
-        padding-top: 50px;
-        padding-left: 20px;
+        padding-top: 67px;
+        padding-left: 51px;
     }
-    
+    .interact-map {
+        padding-left: 400px;
+        top: 650px;
+    }
     .grid-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         gap: 30px;
     }
+    .modal {
+        max-width: 872px;
+        height: 450px;
+    }
+}
     
-    .modal-content {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
+@media only screen and (max-width: 768px) {
+    .header-content {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .berez {
+        font-size: 40px;
+        padding-left: 24px;
         text-align: center;
     }
+    .text {
+        padding-left: 31px;
+        padding-top: 16px;
+        text-align: center;
+    }
+    .list {
+        padding: 0;
+    }
+    .gold-bar {
+        display: none;
+    }
+    .btn-learn {
+        margin: 0 auto;
+    }
+    .main-content {
+        padding-top: 67px;
+        padding-left: 21px;
+    }
+    .interact-map {
+        display: none;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
     
-    .modal-content > img {
-        margin: 50px 0;
+@media only screen and (max-width: 576px) {
+    .berez {
+        font-size: 30px;
     }
-    
-    .modal-content > p {
-        top: 20px;
-        padding-left: 20px;
-        font-size: 16px;
-        width: 90%;
+    .text {
+        font-size: 13px;
     }
-
-    .streets-history {
-        height: auto;
+    .main-content {
+        padding-top: 47px;
+        padding-left: 11px;
     }
-    .streets-container {
-        padding-bottom: 20px;
-    }
-    .history {
-        height: auto;
-        width: auto;
+    .modal {
+        max-width: 372px;
+        height: 300px;
     }
 }
