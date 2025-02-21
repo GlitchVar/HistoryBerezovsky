@@ -176,10 +176,11 @@ li {
     height: 61px;
     margin-top: 11px;
     transition: 0.3s;
-}
-.modal-btn:hover {
-    transition: 0.4s ease;
-    background-color: var(--color-green);
+
+    &:hover {
+        transition: 0.4s ease;
+        background-color: var(--color-green);
+    }
 }
 .card-img {
     box-shadow: 0 10px 52px black;
@@ -188,6 +189,10 @@ li {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 63px;
+    position: absolute; 
+    left: 0;
+    padding-left: 1172px; 
+    padding-top: 65px;
 }
 .popular-humans {
     background-image: url(/img/stroi.webp);
@@ -370,6 +375,27 @@ li {
 }
 .popular-humans {
     height: auto;
+}
+.history-text {
+    display: none;
+}
+.btn-learn-next {
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-red);
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+    width: 193px;
+    height: 61px;
+    margin-top: 11px;
+    transition: 0.3s;
+    transform: translateX(70%);
+
+    &:hover {
+        transition: 0.4s ease;
+        background-color: var(--color-green);
+    }
 }
 
 @media only screen and (max-width: 1200px) {
