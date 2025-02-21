@@ -59,6 +59,10 @@ li {
     font-size: 19px;
     padding-right: 51px;
     transition: 0.2s ease;
+    &:hover {
+        color: #ffc400;
+        transition: 0.3s;
+    }
 }
 .list a::after {
     content: "";
@@ -79,10 +83,6 @@ li {
     position: relative;
     color: #fff;
     transition: color 0.3s;
-}
-.link-item:hover {
-    color: #ffc400;
-    transition: 0.3s;
 }
 .berez {
     font-size: 90px;
@@ -115,10 +115,10 @@ li {
     font-size: 19px;
     cursor: pointer;
     transition: 0.4s ease;
-}
-.btn-learn:hover {
-    transform: scale(1.2);
-    transition: 0.4s ease;
+    &:hover {
+        transform: scale(1.2);
+        transition: 0.4s ease;
+    }
 }
 .main-content {
     padding-top: 97px;
@@ -160,10 +160,10 @@ li {
     height: 61px;
     margin-top: 11px;
     transition: 0.3s;
-}
-.modal1:hover {
-    transition: 0.4s ease;
-    background-color: var(--color-green);
+    &:hover {
+        transition: 0.4s ease;
+        background-color: var(--color-green);
+    }
 }
 .modal-btn {
     border: none;
