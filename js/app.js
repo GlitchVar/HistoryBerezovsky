@@ -132,3 +132,19 @@ buttons.forEach(button => {
 });
 
 document.querySelector('.btn-learn').addEventListener('click', () => { document.getElementById('main-content').scrollIntoView({ behavior: 'smooth' }); });
+
+function btnLearnNext() {
+    const btnLearnGo = document.querySelector(".btn-learn-next");
+    const historyText = document.querySelector(".history-text");
+
+    btnLearnGo.addEventListener("click", () => {
+        btnLearnGo.classList.toggle("openText");
+        if(btnLearnGo.classList.contains("openText")) {
+            historyText.style.display = "block";
+            btnLearnGo.innerText = "Скрыть";
+        } else if(!btnLearnGo.classList.contains("openText")) {
+            historyText.style.display = "none";
+            btnLearnGo.innerText = "Читать";
+        }
+    })
+}
