@@ -62,6 +62,13 @@ function openHumanModal(event) {
       modal.style.display = 'none';
       document.body.style.overflow = 'auto';
     });
+
+    window.addEventListener("keydown", (event) => {
+        if(event.key === "Escape") {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    });
 }
 
 const modalButtonsHumans = document.querySelectorAll(".modal1");
