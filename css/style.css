@@ -413,7 +413,7 @@ li {
     align-self: center;
 }
 
-@media only screen and (max-width: 1366px) {
+@media (max-width: 1440px) {
     .header-content {
         margin-left: 50px;
         margin-right: 50px;
