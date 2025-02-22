@@ -124,21 +124,9 @@ li {
     padding-top: 97px;
     padding-left: 101px;
 }
-.main-content a {
-    transition: 0.3s ease;
-}
-.main-content a:hover {
-    color: #953838;
-    transition: 0.4s ease;
-}
 .interact-map {
-    transform: translateX(50%);
     position: absolute;
-    top: 1250px;
-    bottom: 0;
-}
-.main__list-item {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 1230px;
 }
 .grid-container {
     display: grid;
@@ -425,13 +413,29 @@ li {
     align-self: center;
 }
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1366px) {
     .header-content {
         margin-left: 50px;
         margin-right: 50px;
     }
+    .list-item {
+        padding-right: 0;
+        white-space: nowrap;
+    }
+    .link-item {
+        font-size: 20px;
+    }
+    .gold-bar {
+        width: 400px;
+        height: 400px;
+        float: right;
+        padding-right: 100px;
+    }
     .list {
-        padding-left: 186px;
+        padding-left: 200px;
+    }
+    .interact-map {
+        transform: translateX(-20%);
     }
     .berez {
         font-size: 70px;
@@ -453,8 +457,8 @@ li {
         padding-left: 51px;
     }
     .interact-map {
-        padding-left: 420px;
-        top: 1300px;
+        padding-top: -100px;
+        padding-left: 101px;
     }
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
@@ -501,104 +505,5 @@ li {
     .kartinkabog {
         width: 150px;
         height: 250px;
-    }
-}
-    
-@media only screen and (max-width: 992px) {
-    .header-content {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .list {
-        padding-left: 86px;
-    }
-    .berez {
-        font-size: 50px;
-        padding-left: 44px;
-    }
-    .text {
-        font-size: 15px;
-        padding-left: 51px;
-        padding-top: 16px;
-    }
-    .gold-bar {
-        margin-left: 400px;
-        margin-top: -350px;
-    }
-    .btn-learn {
-        margin-left: 51px;
-    }
-    .main-content {
-        padding-top: 67px;
-        padding-left: 51px;
-    }
-    .interact-map {
-        padding-left: 400px;
-        top: 650px;
-    }
-    .grid-container {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    .modal {
-        max-width: 872px;
-        height: 450px;
-    }
-}
-    
-@media only screen and (max-width: 768px) {
-    .header-content {
-        display: block;
-        padding: 10px;
-        text-align: center;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .berez {
-        font-size: 40px;
-        padding-left: 24px;
-        text-align: center;
-    }
-    .text {
-        padding-left: 31px;
-        padding-top: 16px;
-        text-align: center;
-    }
-    .list {
-        padding: 0;
-    }
-    .gold-bar {
-        display: none;
-    }
-    .btn-learn {
-        margin: 0 auto;
-    }
-    .main-content {
-        padding-top: 67px;
-        padding-left: 21px;
-    }
-    .interact-map {
-        display: none;
-    }
-    .grid-container {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-}
-    
-@media only screen and (max-width: 576px) {
-    .berez {
-        font-size: 30px;
-    }
-    .text {
-        font-size: 13px;
-    }
-    .main-content {
-        padding-top: 47px;
-        padding-left: 11px;
-    }
-    .modal {
-        max-width: 372px;
-        height: 300px;
     }
 }
