@@ -170,13 +170,14 @@ li {
 .card-img {
     box-shadow: 0 10px 52px black;
 }
+
 .history-images {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 63px;
     position: absolute; 
     left: 0;
-    padding-left: 1172px; 
+    padding-left: 950px; 
     padding-top: 65px;
 }
 .popular-humans {
@@ -355,8 +356,7 @@ li {
     padding-bottom: 20px;
 }
 .history {
-    height: auto;
-    width: auto;
+    height: 100%;
 }
 .popular-humans {
     height: auto;
@@ -477,7 +477,7 @@ li {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 63px;
-        margin-left: -280px;
+        margin-left: 200px;
     }
     .cartinka {
         width: 200px;
