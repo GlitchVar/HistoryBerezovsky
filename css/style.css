@@ -401,6 +401,7 @@ li {
 .wow-text {
     width: 560px;
     margin-left: 63px;
+    font-size: 20px;
 }
 .wow-grid {
     display: grid;
@@ -416,7 +417,7 @@ li {
     align-self: center;
 }
 
-@media (min-width: 1367px) and (max-width: 1920px) {
+@media (min-width: 900px) and (max-width: 1200px) {
     .header-content {
         margin-left: 50px;
         margin-right: 50px;
