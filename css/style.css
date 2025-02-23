@@ -417,7 +417,7 @@ li {
     align-self: center;
 }
 
-@media (min-width: 1367px) and (max-width: 1919px) {
+@media (min-width: 1367px) and (max-width: 1800px) {
     .header-content {
         margin-left: 50px;
         margin-right: 50px;
