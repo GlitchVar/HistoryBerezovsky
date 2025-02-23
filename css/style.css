@@ -120,6 +120,9 @@ li {
         transition: 0.4s ease;
     }
 }
+.main-content {
+    padding: 100px;
+}
 .interact-map {
     position: absolute;
     top: 1230px;
@@ -177,7 +180,7 @@ li {
     gap: 63px;
     position: absolute; 
     left: 0;
-    padding-left: 950px; 
+    padding-left: 1200px; 
     padding-top: 65px;
 }
 .popular-humans {
@@ -413,7 +416,7 @@ li {
     align-self: center;
 }
 
-@media screen and (min-width: 1824px) {
+@media (min-width: 900px) and (max-width: 1200px) {
     .header-content {
         margin-left: 50px;
         margin-right: 50px;
