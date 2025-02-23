@@ -120,13 +120,10 @@ li {
         transition: 0.4s ease;
     }
 }
-.main-content {
-    padding-top: 97px;
-    padding-left: 101px;
-}
 .interact-map {
     position: absolute;
     top: 1230px;
+    border: 2px solid #000;
 }
 .grid-container {
     display: grid;
@@ -435,7 +432,7 @@ li {
         padding-left: 200px;
     }
     .interact-map {
-        transform: translateX(-20%);
+        transform:translateY(-20%);
     }
     .berez {
         font-size: 70px;
@@ -455,10 +452,6 @@ li {
     .main-content {
         padding-top: 97px;
         padding-left: 51px;
-    }
-    .interact-map {
-        padding-top: -100px;
-        padding-left: 101px;
     }
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
