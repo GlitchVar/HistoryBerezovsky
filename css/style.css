@@ -471,7 +471,7 @@ li {
         gap: 50px;
     }
     .decor-twoImg {
-        padding-left: 250px;
+        transform: translateX(0);
     }
     .history-images {
         display: grid;
