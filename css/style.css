@@ -405,6 +405,9 @@ li {
     gap: 10px; 
     padding-top: 37px;
 }
+.wow-grid img {
+    border-radius: 5%;
+}
 .bottom-left {
     justify-self: center;
     align-self: center;
