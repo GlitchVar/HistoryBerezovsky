@@ -115,13 +115,13 @@ function openModal(event) {
     window.addEventListener("keydown", (event) => {
         if(event.key == "Escape") {
             modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
+            document.body.style.overflowY = 'auto';
         }
     })
     const buttonClose = modalContent.querySelector('.close-btn');
     buttonClose.addEventListener("click", () => {
       modal.style.display = 'none';
-      document.body.style.overflow = 'auto';
+      document.body.style.overflowY = 'auto';
     });
 }
 
