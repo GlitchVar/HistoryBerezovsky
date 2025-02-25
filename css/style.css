@@ -509,4 +509,7 @@ li {
     .ber-wow h1 {
         transform: translateX(20%);
     }
+    .monuments {
+        height: 115%;
+    }
 }
