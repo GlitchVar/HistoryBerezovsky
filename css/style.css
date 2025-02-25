@@ -484,7 +484,7 @@ li {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 63px;
-        padding-left: 500px;
+        padding-left: 1100px;
     }
     .modal-humans {
         width: 80%;
