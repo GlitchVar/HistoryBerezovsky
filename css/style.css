@@ -411,6 +411,8 @@ li {
 }
 .wow-grid img {
     border-radius: 5%;
+    width: 500px;
+    height: 500px;
 }
 .bottom-left {
     justify-self: center;
