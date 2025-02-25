@@ -504,4 +504,8 @@ li {
         width: 500px;
         height: 500px;
     }
+    .ber-wow > h1 {
+        transform: translateX(10%);
+        font-size: 30px;
+    }
 }
