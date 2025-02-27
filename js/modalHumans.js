@@ -23,7 +23,7 @@ function openMonumentsModal(event) {
         <button type="submit" class="close-btn-monuments">✖️</button>
         `;
         modal.style.width = "1351px";
-        modal.style.height = "755px";
+        
     } else if(modalId === 'modal-monuments2') {
         modalContent.innerHTML = `
         <h1 align="center" style="position: relative; left: 500px; padding-top: 21px; font-weight: 500; width: 500px; padding-bottom: 40px; font-size: 21px;">Монумент горняцкая слава</h1>
@@ -39,7 +39,6 @@ function openMonumentsModal(event) {
         <button type="submit" class="close-btn-monuments">✖️</button>
         `;
         modal.style.width = "1351px";
-        modal.style.height = "855px";
     } else if(modalId === 'modal-monuments3') {
         modalContent.innerHTML = `
         <h1 align="center" style="position: relative; left: 500px; padding-top: 21px; font-weight: 500; width: 500px; padding-bottom: 40px; font-size: 21px;">Памятник Кирову</h1>
@@ -57,7 +56,6 @@ function openMonumentsModal(event) {
         <button type="submit" class="close-btn-monuments">✖️</button>
         `;
         modal.style.width = "1351px";
-        modal.style.height = "895px";
     } else if(modalId === 'modal-monuments4') {
         modalContent.innerHTML = `
         <h1 align="center" style="position: relative; left: 500px; padding-top: 21px; font-weight: 500; width: 500px; padding-bottom: 40px; font-size: 21px;">Монумент Воинской славы</h1>
@@ -75,7 +73,6 @@ function openMonumentsModal(event) {
         <button type="submit" class="close-btn-monuments">✖️</button>
         `;
         modal.style.width = "1351px";
-        modal.style.height = "865px";
     }
 
     modal.style.display = 'block';
