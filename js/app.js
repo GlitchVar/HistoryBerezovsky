@@ -15,7 +15,6 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 370px; left: 735px;">После:</h2>
                 <img src="img/pobeda3.jpg" loading="lazy" style="position: absolute; top: 410px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">✖️</button>`;
-        modal.style.height = "790px";
     } else if(modalId === 'modal2') {
         modalContent.innerHTML = `<p>Музей золота в Березовском был создан в 1970 году по инициативе краеведа Сильвии Опёнкиной.
                             С того времени музей развивался, менял названия, пополнялся экспонатами. В конце 1970-х вошёл
@@ -27,7 +26,6 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/cube.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">✖️</button>`;
-        modal.style.height = "730px";
     } else if(modalId === 'modal3') {
         modalContent.innerHTML = `<p>Исторический сквер в Березовском - центральное место и место образования города. 
                     В месте где находится ажурный мост, в 1754 году была сделана плотина, а затем возведен золотопромывальный завод. 
@@ -40,7 +38,6 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/erofey3.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">✖️</button>`;
-        modal.style.height = "730px";
     } else if(modalId === 'modal4') {
         modalContent.innerHTML = `<p>Шиловский пруд – искусственный водоём на русле реки Шиловка (правый приток реки Пышма) в черте города Берёзовского Свердловской области,
                         образованный в результате преграждения устья реки двумя дамбами. 
@@ -54,7 +51,6 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 340px; left: 735px;">После:</h2>
                 <img src="img/5.jpg" loading="lazy" style="position: absolute; top: 380px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">✖️</button>`;
-        modal.style.height = "760px";
     } else if(modalId === 'modal5') {
         modalContent.innerHTML = `<p>Тропа здоровья появилась в Берёзовском в конце 1970 гг. Летом 2008 года Тропа была обновлена, благоустроена. 
                     Асфальтированная полуторометровая дорожка протянулась по лесу. 
@@ -64,7 +60,6 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/tropa3.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">✖️</button>`;
-        modal.style.height = "730px";
     } else if(modalId === 'modal6') {
         modalContent.innerHTML = `<p>Скульптурная Композиция Дворик расположена в центральной части российского города Березовский, что в Свердловской области. 
                     Композиция является уникальным творением местного скульптора, выпускника 
@@ -74,7 +69,6 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/3.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">✖️</button>`;
-        modal.style.height = "730px";
     } else if(modalId === 'modal7') {
         modalContent.innerHTML = `<p>В 1803 г., в конце декабря, после пожара, берёзовские жители остались без единственного  Пророко-Илиинского храма. 
                         После обращения с просьбой о построении  новой церкви к епископу Пермскому Иустину с его  благословения 14 июля в 1804г. 
@@ -85,7 +79,6 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/church1.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">✖️</button>`;
-        modal.style.height = "730px";
     } else if(modalId === 'modal8') {
         modalContent.innerHTML = `<p>Поблизости, на углу улиц Ленина и Революционная стоит бывший дом купца Гавриила Рожкова. 
         Каменный дом построен купцом Рожковым в 1891 году, 
@@ -96,7 +89,6 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/dom-kupza2.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">✖️</button>`;
-        modal.style.height = "730px";
     } else if(modalId === 'modal9') {
         modalContent.innerHTML = `<p>Недалеко от въезда в Березовский, почти на углу улиц Ленина и Воротникова, 
         стоит дом, как будто сошедший со страниц детских сказок. Он привлекает внимание ярким резным фасадом, с 
@@ -107,7 +99,6 @@ function openModal(event) {
                 <h2 style="position: absolute; top: 310px; left: 735px;">После:</h2>
                 <img src="img/dom-kuzniza2.jpg" loading="lazy" style="position: absolute; top: 350px; left: 730px;" alt="posle" width="370" height="375">
                 <button type="submit" class="close-btn">✖️</button>`;
-        modal.style.height = "730px";
     } 
     
     modal.style.display = 'block';
