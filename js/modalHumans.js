@@ -20,7 +20,7 @@ function openMonumentsModal(event) {
         <h2 style="position: absolute; top: 330px; left: 80px;">До:</h2>
         <h2 style="position: absolute; top: 330px; left: 735px;">После:</h2>
         <img src="img/posle.jpg" loading="lazy" style="position: absolute; top: 130px; left: 1200px;" alt="posle">
-        <button type="submit" class="close-btn-monuments">X</button>
+        <button type="submit" class="close-btn-monuments">✖️</button>
         `;
         modal.style.width = "1351px";
         modal.style.height = "755px";
