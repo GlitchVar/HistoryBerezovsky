@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-image: url(/img/background.webp);
+    background-image: url(../img/background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -184,7 +184,7 @@ li {
     padding-top: 65px;
 }
 .popular-humans {
-    background-image: url(/img/stroi.webp);
+    background-image: url(../img/stroi.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
