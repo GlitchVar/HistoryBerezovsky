@@ -14,7 +14,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-image: url(../img/background.webp);
+    background-image: url(/img/background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -184,7 +184,7 @@ li {
     padding-top: 65px;
 }
 .popular-humans {
-    background-image: url(../img/stroi.jpg);
+    background-image: url(/img/stroi.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -507,5 +507,12 @@ li {
     .ber-wow > h1 {
         transform: translateX(10%);
         font-size: 30px;
+    }
+    .modal-humans-content > p {
+        font-size: 15px;
+        width: 700px;
+    }
+    .modal-humans-content > img {
+        margin: 220px -420px;
     }
 }
