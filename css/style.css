@@ -208,7 +208,7 @@ li {
     transform: translate(-50%, -50%);
     background-color: #fff;
     max-width: 1452px;
-    height: 750px;
+    height: 790px;
     z-index: 100;
     border-radius: 20px;
     box-shadow: 0 52px 125px #000;
@@ -537,7 +537,10 @@ li {
         width: 1000px;
     }
     .modal-content > img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
+    }
+    .modal {
+        height: 600px;
     }
 }
