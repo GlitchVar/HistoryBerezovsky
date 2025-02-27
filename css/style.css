@@ -515,4 +515,7 @@ li {
     .modal-humans-content > img {
         margin: 220px -420px;
     }
+    .modal-humans-content > h1 {
+        transform: translateX(-25%);
+    }
 }
