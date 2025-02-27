@@ -519,14 +519,17 @@ li {
     }
     .modal-monuments-content > p {
         font-size: 15px;
-        width: 800px;
+        width: 1000px;
     }
     .modal-monuments-content > img {
-        margin: 240px -270px;
-        width: 250px;
-        height: 250px;
+        margin: 180px -270px;
+        width: 220px;
+        height: 220px;
     }
     .modal-monuments {
         height: 650px;
+    }
+    .modal-monuments-content > h2 {
+        margin-top: -100px;
     }
 }
