@@ -16,14 +16,13 @@ function openMonumentsModal(event) {
         Два с половиной века назад он так же, может быть, впервые увидел блеснувшие чешуйки золота и застыл в безмолвном удивлении… 
         Ерофей Сидорович Марков (1695-1783) родился в селе Павлово Троице-Сергиева монастыря.</p>
         
-        <img src="img/do.jpg" loading="lazy" style="position: relative; top: 130px; right: 1030px;" alt="do">
+        <img src="img/do.jpg" loading="lazy" style="position: relative; top: 130px; right: 1000px;" alt="do">
         <h2 style="position: absolute; top: 330px; left: 80px;">До:</h2>
         <h2 style="position: absolute; top: 330px; left: 735px;">После:</h2>
-        <img src="img/posle.jpg" loading="lazy" style="position: absolute; top: 130px; left: 1200px;" alt="posle">
+        <img src="img/posle.jpg" loading="lazy" style="position: absolute; top: 130px; left: 1190px;" alt="posle">
         <button type="submit" class="close-btn-monuments">✖️</button>
         `;
         modal.style.width = "1351px";
-        
     } else if(modalId === 'modal-monuments2') {
         modalContent.innerHTML = `
         <h1 align="center" style="position: relative; left: 500px; padding-top: 21px; font-weight: 500; width: 500px; padding-bottom: 40px; font-size: 21px;">Монумент горняцкая слава</h1>
@@ -35,7 +34,7 @@ function openMonumentsModal(event) {
         <img src="img/do2.jpg" loading="lazy" style="position: relative; top: 230px; right: 1030px;" alt="do">
         <h2 style="position: absolute; top: 430px; left: 80px;">До:</h2>
         <h2 style="position: absolute; top: 430px; left: 535px;">После:</h2>
-        <img src="img/posle2.jpg" loading="lazy" style="position: absolute; top: 230px; left: 1000px;"  alt="posle">
+        <img src="img/posle2.jpg" loading="lazy" style="position: absolute; top: 230px; left: 970px;"  alt="posle">
         <button type="submit" class="close-btn-monuments">✖️</button>
         `;
         modal.style.width = "1351px";
