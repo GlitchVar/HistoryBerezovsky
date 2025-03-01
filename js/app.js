@@ -154,3 +154,18 @@ function learnStreets() {
         }
     })
 }
+function learnWow() {
+    const btnLearnWow = document.querySelector(".wow-learn");
+    const wowText = document.querySelector(".wow-text");
+
+    btnLearnWow.addEventListener("click", () => {
+        btnLearnWow.classList.toggle("openTextWow");
+        if(btnLearnWow.classList.contains("openTextWow")) {
+            wowText.style.display = "block";
+            btnLearnWow.innerText = "Скрыть";
+        } else if(!btnLearnWow.classList.contains("openTextWow")) {
+            wowText.style.display = "none";
+            btnLearnWow.innerText = "Читать";
+        }
+    })
+}
