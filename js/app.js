@@ -139,3 +139,18 @@ function btnLearnNext() {
         }
     })
 }
+function learnStreets() {
+    const btnLearnStreets = document.querySelector(".learn-streets");
+    const streetsText = document.querySelector(".main__street-text");
+
+    btnLearnStreets.addEventListener("click", () => {
+        btnLearnStreets.classList.toggle("openTextStreets");
+        if(btnLearnStreets.classList.contains("openTextStreets")) {
+            streetsText.style.display = "block";
+            btnLearnStreets.innerText = "Скрыть";
+        } else if(!btnLearnStreets.classList.contains("openTextStreets")) {
+            streetsText.style.display = "none";
+            btnLearnStreets.innerText = "Читать";
+        }
+    })
+}
