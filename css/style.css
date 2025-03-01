@@ -1,550 +1,571 @@
-:root {
-    --color-gray: #A5A5A5;
-    --color-black: #000000;
-    --color-red: #953838;
-    --color-green: #49982D;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
-}
-html {
-    scroll-behavior: smooth;
-}
-body {
-    background-image: url(../img/background.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    overflow-x: hidden;
-    height: 1250px;
-}
-
-.header {
-    padding-top: 50px;
-}
-a {
-    text-decoration: none;
-    color: var(--color-gray);
-}
-
-ul,
-li {
-    list-style: none;
-}
-.ul-list {
-    display: flex;
-}
-.table {
-    color: #fff;
-}
-.header-content {
-    display: flex;
-    align-items: center;
-    background-color: var(--color-green);
-    padding-left: 18px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 50px;
-    box-shadow: 0 0 24px #000;
-}
-.list {
-    padding-left: 386px;
-}
-.link-item {
-    color: var(--color-white);
-    text-decoration: none;
-    font-size: 19px;
-    padding-right: 51px;
-    transition: 0.2s ease;
-    &:hover {
-        color: #ffc400;
-        transition: 0.3s;
+    :root {
+        --color-gray: #A5A5A5;
+        --color-black: #000000;
+        --color-red: #953838;
+        --color-green: #49982D;
     }
-}
-.list a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 50%;
-    height: 2px;
-    background-color: #007BFF;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-}
-
-.list a:hover::after {
-    transform: scaleX(1);
-}
-.list a {
-    position: relative;
-    color: #fff;
-    transition: color 0.3s;
-}
-.berez {
-    font-size: 90px;
-    padding-left: 94px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.text {
-    font-size: 17px;
-    padding-left: 101px;
-    padding-top: 16px;
-}
-.description {
-    padding-top: 216px;
-    color: var(--color-white);
-    max-width: 450px;
-}
-.gold-bar {
-    margin-left: 1200px;
-    margin-top: -350px;
-}
-.btn-learn {
-    margin-left: 101px;
-    border: none;
-    border-radius: 20px;
-    max-width: 234px;
-    margin-top: 56px;
-    background-color: var(--color-green);
-    color: var(--color-white);
-    padding: 17px 40px 18px 40px;
-    font-size: 19px;
-    cursor: pointer;
-    transition: 0.4s ease;
-    &:hover {
-        transform: scale(1.2);
-        transition: 0.4s ease;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
     }
-}
-.main-content {
-    padding: 100px;
-}
-.interact-map {
-    position: absolute;
-    top: 1230px;
-    border: 2px solid #000;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 120px;
-}
-.card {
-    padding: 28px;
-    text-align: center;
-}
-.modal1 {
-    border: none;
-    border-radius: 20px;
-    background-color: var(--color-red);
-    color: #fff;
-    font-size: 19px;
-    cursor: pointer;
-    width: 193px;
-    height: 61px;
-    margin-top: 11px;
-    transition: 0.3s;
-    &:hover {
-        transition: 0.4s ease;
-        background-color: var(--color-green);
+    html {
+        scroll-behavior: smooth;
     }
-}
-.modal-btn {
-    border: none;
-    border-radius: 20px;
-    background-color: var(--color-red);
-    color: #fff;
-    font-size: 19px;
-    cursor: pointer;
-    width: 193px;
-    height: 61px;
-    margin-top: 11px;
-    transition: 0.3s;
-
-    &:hover {
-        transition: 0.4s ease;
-        background-color: var(--color-green);
+    body {
+        background-image: url(../img/background.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+        height: 1250px;
     }
-}
-.card-img {
-    box-shadow: 0 10px 52px black;
-}
 
-.history-images {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 63px;
-    position: absolute; 
-    left: 0;
-    padding-left: 1200px; 
-    padding-top: 65px;
-}
-.popular-humans {
-    background-image: url(../img/stroi.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 20px;
-}
-.popular-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
-}
-.decor-twoImg {
-    padding-left: 550px;
-}
-
-/*Модальные окна культовых мест*/
-.modal {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    max-width: 1452px;
-    height: 790px;
-    z-index: 100;
-    border-radius: 20px;
-    box-shadow: 0 52px 125px #000;
-}
-.close-btn {
-    border: none;
-    position: absolute;
-    right: 25px;
-    background-color: transparent;
-    color: #000;
-    cursor: pointer;
-    font-size: 30px;
-    margin: 20px;
-}
-.modal-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
-}
-.modal-content > img {
-    position: absolute;
-    left: 50px;
-    top: 350px;
-    border-radius: 20px;
-}
-.modal-content > p {
-    position: relative;
-    top: 100px;
-    padding-left: 35px;
-    font-size: 20px;
-    color: #666666;
-    width: 1000px;
-}
-
-/*Модальные окна знаменитых людей*/
-.modal-humans {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    max-width: 1447px;
-    z-index: 100;
-    border-radius: 20px;
-    box-shadow: 0 52px 125px #000;
-}
-.close-btn-modal {
-    border: none;
-    position: absolute;
-    right: 25px;
-    background-color: transparent;
-    color: #000;
-    cursor: pointer;
-    font-size: 30px;
-    margin: 20px;
-}
-.modal-humans-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
-}
-.modal-humans-content > img {
-    margin: 240px -470px;
-    border-radius: 20px;
-}
-.modal-humans-content > p {
-    position: relative;
-    top: 100px;
-    padding-left: 35px;
-    font-size: 20px;
-    color: #666666;
-    width: 1000px;
-}
-
-/*Модальные окна памятников*/
-.modal-monuments {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    max-width: 1447px;
-    height: 924px;
-    z-index: 100;
-    border-radius: 20px;
-    box-shadow: 0 52px 125px #000;
-}
-.close-btn-monuments {
-    border: none;
-    position: absolute;
-    right: 25px;
-    background-color: transparent;
-    color: #000;
-    cursor: pointer;
-    font-size: 30px;
-    margin: 20px;
-}
-.modal-monuments-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
-}
-.modal-monuments-content > img {
-    margin: 240px -470px;
-    border-radius: 20px;
-}
-.modal-monuments-content > p {
-    position: relative;
-    top: 100px;
-    padding-left: 35px;
-    font-size: 20px;
-    color: #666666;
-    width: 1000px;
-}
-
-.monuments-button {
-    border: none;
-    border-radius: 20px;
-    background-color: var(--color-red);
-    color: #fff;
-    font-size: 19px;
-    cursor: pointer;
-    width: 193px;
-    height: 61px;
-    margin-top: 11px;
-    transition: 0.3s;
-    margin-top: 19px;
-    &:hover {
-        transition: 0.4s ease;
-        background-color: var(--color-green);
+    .header {
+        padding-top: 50px;
     }
-}
-.monuments-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 180px;
-}
-.monuments-card {
-    text-align: center;
-}
-.streets-history {
-    height: auto;
-}
-.streets-container {
-    padding-bottom: 20px;
-}
-.history {
-    height: 100%;
-}
-.popular-humans {
-    height: auto;
-}
-.history-text {
-    display: none;
-}
-.btn-learn-next {
-    border: none;
-    border-radius: 20px;
-    background-color: var(--color-red);
-    color: #fff;
-    font-size: 19px;
-    cursor: pointer;
-    width: 193px;
-    height: 61px;
-    margin-top: 11px;
-    transition: 0.3s;
-    transform: translateX(70%);
-
-    &:hover {
-        transition: 0.4s ease;
-        background-color: var(--color-green);
+    a {
+        text-decoration: none;
+        color: var(--color-gray);
     }
-}
-.img-wow {
-    width: 100%;
-    height: 860px;
-}
-.ber-wow {
-    background-color: #ef7e05;
-    padding-bottom: 50px;
-}
-.ber-wow > h1 {
-    transform: translateX(30%);
-    padding-bottom: 70px;
-    padding-top: 30px;
-}
-.wow-text {
-    width: 560px;
-    margin-left: 63px;
-    font-size: 20px;
-}
-.wow-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Две колонки одинаковой ширины */
-    gap: 10px; 
-    padding-top: 37px;
-}
-.wow-grid img {
-    border-radius: 5%;
-    width: 500px;
-    height: 500px;
-}
-.bottom-left {
-    justify-self: center;
-    align-self: center;
-}
 
-@media (min-width: 1366px) and (max-width: 1800px) {
+    ul,
+    li {
+        list-style: none;
+    }
+    .ul-list {
+        display: flex;
+    }
+    .table {
+        color: #fff;
+    }
     .header-content {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    .list-item {
-        padding-right: 0;
-        white-space: nowrap;
-    }
-    .link-item {
-        font-size: 20px;
-    }
-    .gold-bar {
-        width: 400px;
-        height: 400px;
-        float: right;
-        padding-right: 100px;
+        display: flex;
+        align-items: center;
+        background-color: var(--color-green);
+        padding-left: 18px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 50px;
+        box-shadow: 0 0 24px #000;
     }
     .list {
-        padding-left: 200px;
+        padding-left: 386px;
     }
-    .interact-map {
-        transform:translateY(-20%);
+    .link-item {
+        color: var(--color-white);
+        text-decoration: none;
+        font-size: 19px;
+        padding-right: 51px;
+        transition: 0.2s ease;
+        &:hover {
+            color: #ffc400;
+            transition: 0.3s;
+        }
+    }
+    .list a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 50%;
+        height: 2px;
+        background-color: #007BFF;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+    }
+
+    .list a:hover::after {
+        transform: scaleX(1);
+    }
+    .list a {
+        position: relative;
+        color: #fff;
+        transition: color 0.3s;
     }
     .berez {
-        font-size: 70px;
-        padding-left: 64px;
+        font-size: 90px;
+        padding-left: 94px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .text {
-        padding-left: 71px;
+        font-size: 17px;
+        padding-left: 101px;
         padding-top: 16px;
     }
+    .description {
+        padding-top: 216px;
+        color: var(--color-white);
+        max-width: 450px;
+    }
     .gold-bar {
-        margin-left: 700px;
+        margin-left: 1200px;
         margin-top: -350px;
     }
     .btn-learn {
-        margin-left: 70px;
+        margin-left: 101px;
+        border: none;
+        border-radius: 20px;
+        max-width: 234px;
+        margin-top: 56px;
+        background-color: var(--color-green);
+        color: var(--color-white);
+        padding: 17px 40px 18px 40px;
+        font-size: 19px;
+        cursor: pointer;
+        transition: 0.4s ease;
+        &:hover {
+            transform: scale(1.2);
+            transition: 0.4s ease;
+        }
     }
     .main-content {
-        padding-top: 97px;
-        padding-left: 51px;
+        padding: 100px;
+    }
+    .interact-map {
+        position: absolute;
+        top: 1230px;
+        border: 2px solid #000;
     }
     .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 60px;
-    }
-    .modal-content > img {
-        left: 30px;
-        top: 200px;
-    }
-    .monuments-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 100px;
-    }
-    .popular-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 120px;
     }
-    .decor-twoImg {
-        transform: translateX(-20%);
+    .card {
+        padding: 28px;
+        text-align: center;
     }
+    .modal1 {
+        border: none;
+        border-radius: 20px;
+        background-color: var(--color-red);
+        color: #fff;
+        font-size: 19px;
+        cursor: pointer;
+        width: 193px;
+        height: 61px;
+        margin-top: 11px;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.4s ease;
+            background-color: var(--color-green);
+        }
+    }
+    .modal-btn {
+        border: none;
+        border-radius: 20px;
+        background-color: var(--color-red);
+        color: #fff;
+        font-size: 19px;
+        cursor: pointer;
+        width: 193px;
+        height: 61px;
+        margin-top: 11px;
+        transition: 0.3s;
+
+        &:hover {
+            transition: 0.4s ease;
+            background-color: var(--color-green);
+        }
+    }
+    .card-img {
+        box-shadow: 0 10px 52px black;
+    }
+
     .history-images {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 63px;
-        padding-left: 950px;
+        position: absolute; 
+        left: 0;
+        padding-left: 1200px; 
+        padding-top: 65px;
     }
+    .popular-humans {
+        background-image: url(../img/stroi.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 20px;
+    }
+    .popular-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+    }
+    .decor-twoImg {
+        padding-left: 550px;
+    }
+
+    /*Модальные окна культовых мест*/
+    .modal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        max-width: 1452px;
+        height: 790px;
+        z-index: 100;
+        border-radius: 20px;
+        box-shadow: 0 52px 125px #000;
+    }
+    .close-btn {
+        border: none;
+        position: absolute;
+        right: 25px;
+        background-color: transparent;
+        color: #000;
+        cursor: pointer;
+        font-size: 30px;
+        margin: 20px;
+    }
+    .modal-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+    }
+    .modal-content > img {
+        position: absolute;
+        left: 50px;
+        top: 350px;
+        border-radius: 20px;
+    }
+    .modal-content > p {
+        position: relative;
+        top: 100px;
+        padding-left: 35px;
+        font-size: 20px;
+        color: #666666;
+        width: 1000px;
+    }
+
+    /*Модальные окна знаменитых людей*/
     .modal-humans {
-        width: 80%;
-        max-width: 1100px;
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        max-width: 1447px;
+        z-index: 100;
+        border-radius: 20px;
+        box-shadow: 0 52px 125px #000;
+    }
+    .close-btn-modal {
+        border: none;
+        position: absolute;
+        right: 25px;
+        background-color: transparent;
+        color: #000;
+        cursor: pointer;
+        font-size: 30px;
+        margin: 20px;
+    }
+    .modal-humans-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+    }
+    .modal-humans-content > img {
+        margin: 240px -470px;
+        border-radius: 20px;
+    }
+    .modal-humans-content > p {
+        position: relative;
+        top: 100px;
+        padding-left: 35px;
+        font-size: 20px;
+        color: #666666;
+        width: 1000px;
+    }
+
+    /*Модальные окна памятников*/
+    .modal-monuments {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        max-width: 1447px;
+        height: 924px;
+        z-index: 100;
+        border-radius: 20px;
+        box-shadow: 0 52px 125px #000;
+    }
+    .close-btn-monuments {
+        border: none;
+        position: absolute;
+        right: 25px;
+        background-color: transparent;
+        color: #000;
+        cursor: pointer;
+        font-size: 30px;
+        margin: 20px;
+    }
+    .modal-monuments-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+    }
+    .modal-monuments-content > img {
+        margin: 240px -470px;
+        border-radius: 20px;
+    }
+    .modal-monuments-content > p {
+        position: relative;
+        top: 100px;
+        padding-left: 35px;
+        font-size: 20px;
+        color: #666666;
+        width: 1000px;
+    }
+
+    .monuments-button {
+        border: none;
+        border-radius: 20px;
+        background-color: var(--color-red);
+        color: #fff;
+        font-size: 19px;
+        cursor: pointer;
+        width: 193px;
+        height: 61px;
+        margin-top: 11px;
+        transition: 0.3s;
+        margin-top: 19px;
+        &:hover {
+            transition: 0.4s ease;
+            background-color: var(--color-green);
+        }
+    }
+    .monuments-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 180px;
+    }
+    .monuments-card {
+        text-align: center;
+    }
+    .streets-history {
+        height: auto;
+        padding-bottom: 1100px;
+    }
+    
+    .history {
+        height: 100%;
+    }
+    .popular-humans {
         height: auto;
     }
-    .monuments {
-        padding-bottom: 1370px;
+    .history-text {
+        display: none;
     }
-    .footer img {
-        width: 300px;
-        height: 250px;
+    .btn-learn-next {
+        border: none;
+        border-radius: 20px;
+        background-color: var(--color-red);
+        color: #fff;
+        font-size: 19px;
+        cursor: pointer;
+        width: 193px;
+        height: 61px;
+        margin-top: 11px;
+        transition: 0.3s;
+        transform: translateX(70%);
+
+        &:hover {
+            transition: 0.4s ease;
+            background-color: var(--color-green);
+        }
+    }
+    .img-wow {
+        width: 100%;
+        height: 860px;
+    }
+    .ber-wow {
+        background-color: #ef7e05;
+        padding-bottom: 50px;
+    }
+    .ber-wow > h1 {
+        transform: translateX(30%);
+        padding-bottom: 70px;
+        padding-top: 30px;
+    }
+    .wow-text {
+        width: 560px;
+        margin-left: 63px;
+        font-size: 20px;
+    }
+    .wow-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Две колонки одинаковой ширины */
+        gap: 10px; 
+        padding-top: 37px;
     }
     .wow-grid img {
+        border-radius: 5%;
         width: 500px;
         height: 500px;
     }
-    .ber-wow > h1 {
-        transform: translateX(10%);
-        font-size: 30px;
+    .bottom-left {
+        justify-self: center;
+        align-self: center;
     }
-    .modal-humans-content > p {
-        font-size: 15px;
-        width: 700px;
+
+    .main__street-text {
+        display: none;
     }
-    .modal-humans-content > img {
-        margin: 220px -420px;
+    .learn-streets {
+        border: none;
+        border-radius: 20px;
+        background-color: var(--color-red);
+        color: #fff;
+        font-size: 19px;
+        cursor: pointer;
+        width: 193px;
+        height: 61px;
+        margin-bottom: 50px;
+        transition: 0.3s;
+        transform: translateX(70%);
+
+        &:hover {
+            transition: 0.4s ease;
+            background-color: var(--color-green);
+        }
     }
-    .modal-humans-content > h1 {
-        transform: translateX(-25%);
+
+@media (min-width: 1366px) and (max-width: 1800px) {
+        .header-content {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .list-item {
+            padding-right: 0;
+            white-space: nowrap;
+        }
+        .link-item {
+            font-size: 20px;
+        }
+        .gold-bar {
+            width: 400px;
+            height: 400px;
+            float: right;
+            padding-right: 100px;
+        }
+        .list {
+            padding-left: 200px;
+        }
+        .interact-map {
+            transform:translateY(-20%);
+        }
+        .berez {
+            font-size: 70px;
+            padding-left: 64px;
+        }
+        .text {
+            padding-left: 71px;
+            padding-top: 16px;
+        }
+        .gold-bar {
+            margin-left: 700px;
+            margin-top: -350px;
+        }
+        .btn-learn {
+            margin-left: 70px;
+        }
+        .main-content {
+            padding-top: 97px;
+            padding-left: 51px;
+        }
+        .grid-container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 60px;
+        }
+        .modal-content > img {
+            left: 30px;
+            top: 200px;
+        }
+        .monuments-container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 100px;
+        }
+        .popular-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+        }
+        .decor-twoImg {
+            transform: translateX(-20%);
+        }
+        .history-images {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 63px;
+            padding-left: 950px;
+        }
+        .modal-humans {
+            width: 80%;
+            max-width: 1100px;
+            height: auto;
+        }
+        .monuments {
+            padding-bottom: 1370px;
+        }
+        .footer img {
+            width: 300px;
+            height: 250px;
+        }
+        .wow-grid img {
+            width: 500px;
+            height: 500px;
+        }
+        .ber-wow > h1 {
+            transform: translateX(10%);
+            font-size: 30px;
+        }
+        .modal-humans-content > p {
+            font-size: 15px;
+            width: 700px;
+        }
+        .modal-humans-content > img {
+            margin: 220px -420px;
+        }
+        .modal-humans-content > h1 {
+            transform: translateX(-25%);
+        }
+        .modal-monuments-content > p {
+            font-size: 15px;
+            width: 1000px;
+        }
+        .modal-monuments-content > img {
+            margin: 140px -350px;
+            width: 220px;
+            height: 220px;
+        }
+        .modal-monuments {
+            height: 650px;
+        }
+        .modal-monuments-content > h2 {
+            margin-top: -100px;
+        }
+        .modal-content > p {
+            font-size: 16px;
+            width: 1000px;
+        }
+        .modal-content > img {
+            margin: -75px 20px; 
+            width: 250px;
+            height: 250px;
+        }
+        .modal {
+            height: 600px;
+        }
+        .modal-content > h2 {
+            margin-top: -80px;
+        }
     }
-    .modal-monuments-content > p {
-        font-size: 15px;
-        width: 1000px;
-    }
-    .modal-monuments-content > img {
-        margin: 140px -350px;
-        width: 220px;
-        height: 220px;
-    }
-    .modal-monuments {
-        height: 650px;
-    }
-    .modal-monuments-content > h2 {
-        margin-top: -100px;
-    }
-    .modal-content > p {
-        font-size: 16px;
-        width: 1000px;
-    }
-    .modal-content > img {
-        margin: -75px 20px; 
-        width: 250px;
-        height: 250px;
-    }
-    .modal {
-        height: 600px;
-    }
-    .modal-content > h2 {
-        margin-top: -80px;
-    }
-}
